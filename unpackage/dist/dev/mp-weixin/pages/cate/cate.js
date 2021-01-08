@@ -160,6 +160,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 var _default =
 {
   data: function data() {
@@ -180,7 +182,7 @@ var _default =
     // 获取当前系统的信息
     var sysInfo = uni.getSystemInfoSync();
     // 为 wh 窗口可以高度动态赋值
-    this.wh = sysInfo.windowHeight;
+    this.wh = sysInfo.windowHeight - 50;
     // 调用获取分类数据列表的方法
     this.getCateList();
   },
@@ -207,6 +209,12 @@ var _default =
     gotoGoodsList: function gotoGoodsList(item3) {
       uni.navigateTo({
         url: '/subpkg/goods_list/goods_list?cid=' + item3.cat_id });
+
+    },
+    // 跳转到分包中的搜索页面
+    gotoSearch: function gotoSearch() {
+      uni.navigateTo({
+        url: '/subpkg/search/search' });
 
     } } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
