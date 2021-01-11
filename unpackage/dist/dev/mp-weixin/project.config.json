@@ -5,46 +5,12 @@
   },
   "setting": {
     "urlCheck": false,
-    "es6": true,
-    "enhance": false,
-    "postcss": true,
-    "preloadBackgroundData": false,
-    "minified": true,
-    "newFeature": false,
-    "coverView": true,
-    "nodeModules": false,
-    "autoAudits": false,
-    "showShadowRootInWxmlPanel": true,
-    "scopeDataCheck": false,
-    "uglifyFileName": false,
-    "checkInvalidKey": true,
-    "checkSiteMap": false,
-    "uploadWithSourceMap": true,
-    "compileHotReLoad": false,
-    "useMultiFrameRuntime": true,
-    "useApiHook": true,
-    "babelSetting": {
-      "ignore": [],
-      "disablePlugins": [],
-      "outputPath": ""
-    },
-    "enableEngineNative": false,
-    "bundle": false,
-    "useIsolateContext": true,
-    "useCompilerModule": true,
-    "userConfirmedUseCompilerModuleSwitch": false,
-    "userConfirmedBundleSwitch": false,
-    "packNpmManually": false,
-    "packNpmRelationList": [],
-    "minifyWXSS": true,
-    "useApiHostProcess": false
+    "checkSiteMap": false
   },
   "compileType": "miniprogram",
   "libVersion": "",
   "appid": "wx4a88c30e41305e62",
   "projectname": "uni-shop-2",
-  "simulatorType": "wechat",
-  "simulatorPluginLibVersion": {},
   "condition": {
     "plugin": {
       "list": []
@@ -58,21 +24,8 @@
     "miniprogram": {
       "list": [
         {
-          "name": "subpkg/search/search",
-          "pathName": "subpkg/search/search",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "subpkg/goods_list/goods_list",
-          "pathName": "subpkg/goods_list/goods_list",
-          "query": "cid=5",
-          "scene": null
-        },
-        {
-          "name": "subpkg/goods_detail/goods_detail",
-          "pathName": "subpkg/goods_detail/goods_detail",
-          "query": "goods_id=395",
+          "name": "pages/cart/cart",
+          "pathName": "pages/cart/cart",
           "scene": null
         }
       ]
