@@ -3,7 +3,7 @@
     <my-address></my-address>
 		<!-- 购物车商品列表的标题区域 -->
 		<view class="cart-title">
-		  <!-- 左侧的图标 -->
+		  <!-- 左侧的图标  fghghg-->
 		  <uni-icons type="shop" size="18"></uni-icons>
 		  <!-- 描述文本 -->
 		  <text class="cart-title-text">购物车</text>
