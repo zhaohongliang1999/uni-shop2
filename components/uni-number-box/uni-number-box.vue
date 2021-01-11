@@ -57,7 +57,7 @@
 				this.inputValue = +val;
 			},
 			inputValue(newVal, oldVal) {
-				if (+newVal !== +oldVal) {
+				if (+newVal !== +oldVal &&  Number(newVal) && String(newVal).indexOf('.') === -1) {
 					this.$emit("change", newVal);
 				}
 			}
